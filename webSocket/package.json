@@ -1,0 +1,21 @@
+{
+    "name": "ws",
+    "version": "1.0.0",
+    "description": "webSocket example",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "keywords": [
+        "webSocket"
+    ],
+    "author": "Black Lee",
+    "license": "Apache-2.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/webitlee/Node.stydy"
+    },
+    "dependencies": {
+        "ws": "1.1.1"
+    }
+}

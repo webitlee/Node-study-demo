@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+    <title>浏览器端webSocket</title>
+</head>
+<body></body>
+<script>
+    //浏览器端js
+
+    //打开一个webSocket
+    var ws = new WebSocket('ws://localhost:250/test');
+    //响应nomessage事件
+    ws.onmessage = function(msg){
+        console.log(msg);
+    }
+    //给服务器发送一个字符串
+    ws.send('Hello webSocket');
+</script>
+</html>
